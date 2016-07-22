@@ -1,6 +1,8 @@
 ---
 title: 테그 플러그인 테스트
 date: 2016-07-22 11:23:54
+categories:
+    - HEXO
 tags: 
     - HEXO
     - TAG
@@ -14,7 +16,7 @@ tags:
 
 ## 마크다운 코드 블락...흔한거
 
-```java test.java
+``` java test.java
 String s = "abc";
 System.out.println(s);
 ```
@@ -29,5 +31,5 @@ System.out.println(s);
 
 ## 다른 포스트 걸어서 참고해 볼 수 있음...
 
-{% post_link hello-world %}
+{% post_link hello-world 최초 자동 생성 포스트물...^^ %}
 
